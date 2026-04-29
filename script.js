@@ -1,38 +1,35 @@
-// Oppgave 2
-// Her lager jeg en let variabel, som blir en string. siden jeg bruker "". exampleString bruker jeg i console.log for vis den i f12 etterpå
-let exampleString = "Hallo. Hvordan går det med deg?";
-console.log(exampleString);
-// Her endrer jeg verdien i variabelen som er en string. og legger til en ny console.log for å vise den nye verdien i f12
-exampleString = "Nå er dette den nye stringen";
-console.log(exampleString);
-
-// let eksempelNummer = 32; gjør så at når putter eksempelnummer i console.log. vil den da vise 32 i f12 console.
-let eksempelNummer = 32;
-console.log(eksempelNummer);
-// Bolean brukes til brukes til å finne ut om ting er true/false
-let exampleTrue = true;
-let exampleFalse = false;
-console.log(exampleTrue);
-console.log(exampleFalse);
-
-// oppgave 3
+// Oppgave 2 A
+const navn = "Kent";
+console.log(navn);
+// Oppgave 2 B
+let exampleNumber = 67;
+console.log(exampleNumber);
+// Oppgave 2 C
+let itsWarmOutside = true;
+console.log(itsWarmOutside);
+//  Oppgave 2 D 
+let Cars = ["Volvo", "Ford", "Volkswagen", "Tesla", "Toyota" ];
+console.log(Cars);
 // matematiske operatører
+let exampleString2 = "Dette er matematiske operatører";
+console.log(exampleString2);
 let number = 10;
 console.log(number + 5);
 console.log(number - 3);
 console.log(number * 2);
 console.log(number / 2);
 // forkortede operatører
+let exampleString3 = "Dette er forkortede operatører";
+console.log(exampleString3);
 let number2 = 10;
-console.log(++number2);
-number2 = 10;
-console.log(--number2);
-number2 = 10;
-console.log((number2 += 6));
-number2 = 10;
-console.log((number2 -= 4));
+console.log(number2 + 1);
+console.log(number2 - 1);
+console.log(number2 + 6);
+console.log(number2 - 4);
 
 // oppgave 4
+let exampleString4 = "Dette er et eksempel på en innloggings tjeneste";
+console.log(exampleString4);
 
 let userName = "Kent";
 let userAge = 30;
@@ -44,6 +41,13 @@ if (userName !== "" && userAge >= 18 && userIsBlocked === false) {
   userIsLoggedIn = true;
   goToPage = "/home";
   console.log("Velkommen " + userName + "!");
-}else {
-    console.log("Du kan ikke logge inn" + "!");
+} else {
+  console.log("Du kan ikke logge inn" + "!");
 }
+
+let exampleString5 = "Dette er et eksempel på en ternary";
+console.log(exampleString5);
+
+const userMale = true;
+const userTitle = userMale ? "mr." : "ms.";
+console.log(userTitle);
